@@ -1,0 +1,17 @@
+#include<stdio.h>
+int 3rdangle(int,int);
+int main()
+{
+int a,b,c;
+printf("Enter two angles of a triangle");
+scanf("%d%d",&a,&b);
+c=3rdangle();
+printf("The angles of triangle are %d , %d and %d",a,b,c);
+return o;
+}
+int 3rdangle(int x,int y)
+{
+int z;
+z=180-(x+y);
+return z;
+}
